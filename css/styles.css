@@ -37,8 +37,54 @@ li.nav-item {
   margin-right: 5px;
 }
 
-main {
-  display: flex;
+main.container {
+  width: 70%;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section#home.hero {
+  background-color: #27548D;
+  overflow: auto;
+}
+
+div.hero-image {
+  float: left;
   width: 60%;
-  justify-content: center;
+}
+
+div.hero-image img {
+  margin: 0px;
+  width: 100%;
+  clear: right;
+}
+
+div.hero-content {
+  float: right;
+  width: 40%;
+  text-align: center;
+  color: white;
+}
+
+section#cats.call-to-action {
+  background-color: #FAD866;
+  margin: 0px;
+  padding: 20px;
+}
+
+.call-to-action h3 {
+  margin: 0px;
+  margin-top: 20px;
+}
+
+
+section#products.products {
+  background-color: lightgrey;
+  margin: 0px;
+}
+
+section#about.about {
+  background-color: #27548D;
+  margin: 0px;
 }
