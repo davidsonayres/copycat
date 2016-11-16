@@ -114,4 +114,17 @@ section#about.about {
   margin: 0px;
   padding: 20px;
   color: white;
+  overflow: auto;
+}
+
+div.team-fun h3,
+div.team-values h3,
+div.team-meow h3 {
+  float: left;
+  display: inline-block;
+  width: 33%;
+  color: #FA6666;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
 }
